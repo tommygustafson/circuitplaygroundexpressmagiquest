@@ -85,7 +85,7 @@ while True:
         wand_id = getWandIDFromPulses(pulses)
         print(wand_id)
         if wand_id == '54d4b50':
-            cpx.pixels.fill((RED)
+            cpx.pixels.fill((RED))
             cpx.play_tone(262, 1)
         elif wand_id == '54eba60':
             cpx.pixels.fill((100,100,100))
