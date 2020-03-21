@@ -90,6 +90,8 @@ while True:
         elif wand_id == '54eba60':
             cpx.pixels.fill((100,100,100))
             cpx.play_tone(294, 1)
+        else:
+            cpx.pixels.fill(GREEN)
         time.sleep(1) #Sleep for 1 second
     '''
     try:
