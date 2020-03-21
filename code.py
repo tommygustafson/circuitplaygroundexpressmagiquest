@@ -85,11 +85,13 @@ while True:
         wand_id = getWandIDFromPulses(pulses)
         print(wand_id)
         if wand_id == '54d4b50':
-            cpx.pixels.fill((130, 0, 100))
+            cpx.pixels.fill((RED))
             cpx.play_tone(262, 1)
         elif wand_id == '54eba60':
             cpx.pixels.fill((100,100,100))
             cpx.play_tone(294, 1)
+        else:
+            cpx.pixels.fill(GREEN)
         time.sleep(1) #Sleep for 1 second
     '''
     try:
